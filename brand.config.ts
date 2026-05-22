@@ -9,6 +9,27 @@ export const brandConfig = {
   "contact": "WhatsApp via Linktree",
   "publicLink": "https://linktr.ee/sweetstockroom",
   "instagram": "https://www.instagram.com/sweetstockroom",
+  "designConcept": "Bento Grid fashion retail landing",
+  "conversionGoal": "Connect store visits, TikTok Shop, Shopee, Instagram, and WhatsApp into a curated boutique buying path.",
+  "proofPoints": [
+    "Public profile links TikTok Shop, Shopee, TikTok, Instagram, WhatsApp, and store location.",
+    "Soekarno Hatta address positions the store for local pickup and walk-in discovery.",
+    "Fashion stockroom identity fits a curated bento layout with new-in, fit edit, and social checkout blocks."
+  ],
+  "sourceLinks": [
+    {
+      "label": "Sweet Stockroom Linktree",
+      "url": "https://linktr.ee/sweetstockroom"
+    },
+    {
+      "label": "Sweet Stockroom Instagram",
+      "url": "https://www.instagram.com/sweetstockroom"
+    },
+    {
+      "label": "Sweet Stockroom TikTok Shop",
+      "url": "https://linktr.ee/sweetstockroom"
+    }
+  ],
   "theme": {
     "bg": "#171317",
     "accent": "#ff8fab",
