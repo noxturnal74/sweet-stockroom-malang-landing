@@ -3,108 +3,56 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sweet Stockroom | Fashion retail and stockroom</title>
-  <meta name="description" content="A stylish stockroom page for new arrivals, curated bundles, social commerce, and store pickup. Simple, visual, and campaign-ready.">
+  <title>Sweet Stockroom | Boutique fashion stockroom</title>
+  <meta name="description" content="Connect local store visits, TikTok Shop, Shopee, Instagram, and WhatsApp into one curated buying journey.">
   <meta property="og:title" content="Sweet Stockroom">
-  <meta property="og:description" content="A stylish stockroom page for new arrivals, curated bundles, social commerce, and store pickup. Simple, visual, and campaign-ready.">
+  <meta property="og:description" content="Connect local store visits, TikTok Shop, Shopee, Instagram, and WhatsApp into one curated buying journey.">
   <meta property="og:image" content="./assets/hero.svg">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body class="theme-boutique">
-  <header class="site-header">
+<body class="theme-sweet" data-layout="sweet" data-motion-profile="sweet">
+  <header class="site-header sweet-nav">
     <a class="logo-lockup" href="#top" aria-label="Sweet Stockroom home">
       <img src="./assets/logo.svg" alt="Logo Sweet Stockroom" data-fallback-logo>
       <span class="logo-fallback">SS</span>
       <strong>Sweet Stockroom</strong>
     </a>
-    <nav aria-label="Primary"><a href="#new-in">New In</a><a href="#curated">Curated</a><a href="#shop">Shop</a><a href="#location">Visit</a></nav>
+    <nav aria-label="Primary"><a href="#edit">Edit</a><a href="#shop">Shop</a><a href="#policy">Policy</a><a href="#visit">Visit</a></nav>
   </header>
-
   <main id="top">
-    <section class="hero" style="--hero-image:url('./assets/hero.svg')">
-      <div class="hero-overlay"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Boutique stockroom and social commerce</p>
-        <h1>Curated fashion drops built for TikTok, Shopee, and store visits.</h1>
-        <p>A stylish stockroom page for new arrivals, curated bundles, social commerce, and store pickup. Simple, visual, and campaign-ready.</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">Shop New Arrivals</a>
-          <a class="button ghost" href="https://www.instagram.com/sweetstockroom" target="_blank" rel="noreferrer">Open Instagram</a>
-        </div>
-      </div>
-      <aside class="identity-card">
-        <img src="./assets/logo.svg" alt="" data-fallback-logo>
-        <span class="logo-fallback big">SS</span>
-        <em>Bento Grid fashion retail landing</em>
-        <p>Soekarno Hatta retail strip</p>
-        <strong>Fashion retail and stockroom</strong>
-      </aside>
+    <section class="sweet-hero" style="--hero-image:url('./assets/hero.svg')">
+      <div><p class="eyebrow">Boutique stockroom / social commerce</p><h1>New-in edits that route straight to the right checkout channel.</h1><p>Visitor enters new-in edit, checks outfit pairings, chooses channel, reads shipping/returns, then shops.</p></div>
+      <div class="channel-stack"><a href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">TikTok Shop</a><a href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">Shopee</a><a href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">WhatsApp Styling</a></div>
     </section>
-
-    <section class="visual-strip" aria-label="Sweet Stockroom campaign visuals">
-      <figure style="--image:url('./assets/gallery-1.svg')"><figcaption>New In</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-2.svg')"><figcaption>Curated Stock</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-3.svg')"><figcaption>Social Commerce</figcaption></figure>
+    <section id="edit" class="bento-stockroom">
+      <article class="large"><span>New-in edit</span><h2>Curated fashion needs fit, size, material, and channel clarity.</h2></article>
+      <article><span>Daily Top</span><strong>from Rp89k</strong><p>new-in item</p></article><article><span>Weekend Set</span><strong>from Rp159k</strong><p>paired outfit</p></article><article><span>Dress Edit</span><strong>from Rp189k</strong><p>curated stock</p></article>
     </section>
-
-    <section class="source-insights" aria-label="Sweet Stockroom public research">
-      <div class="insight-copy">
-        <p class="eyebrow">Field Notes</p>
-        <h2>Connect store visits, TikTok Shop, Shopee, Instagram, and WhatsApp into a curated boutique buying path.</h2>
-        <p>Design direction: Bento Grid fashion retail landing.</p>
-        <div class="source-links"><a href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">Sweet Stockroom Linktree</a><a href="https://www.instagram.com/sweetstockroom" target="_blank" rel="noreferrer">Sweet Stockroom Instagram</a><a href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">Sweet Stockroom TikTok Shop</a></div>
-      </div>
-      <div class="insight-grid">
-        <article><span>01</span><p>Public profile links TikTok Shop, Shopee, TikTok, Instagram, WhatsApp, and store location.</p></article><article><span>02</span><p>Soekarno Hatta address positions the store for local pickup and walk-in discovery.</p></article><article><span>03</span><p>Fashion stockroom identity fits a curated bento layout with new-in, fit edit, and social checkout blocks.</p></article>
-      </div>
+    <section id="shop" class="shop-router">
+      <div class="chip-wall"><span>Size guide</span><span>Material notes</span><span>Product filters</span><span>Channel router</span><span>Return policy</span></div>
+      <ol><li>Choose fit edit</li><li>Check size and material</li><li>Pick Shopee/TikTok/WhatsApp</li><li>Confirm stock</li><li>Select delivery or pickup</li></ol>
     </section>
-
-    <section id="new-in" class="brand-section section-1">
-      <div class="section-copy">
-        <p class="eyebrow">New In</p>
-        <h2>Fresh arrivals displayed like a boutique campaign.</h2>
+    <section id="policy" class="policy-grid"><article>Stock is confirmed by admin/channel.</article><article>Return/exchange follows item condition and availability.</article><article>Delivery depends on selected platform.</article></section>
+    <section class="proof-grid"><article><span>01</span><p>Public profile links TikTok Shop, Shopee, Instagram, WhatsApp, and store location.</p></article><article><span>02</span><p>Soekarno Hatta address supports pickup and walk-in discovery.</p></article><article><span>03</span><p>Social-commerce structure fits a curated bento layout.</p></article></section>
+    <section id="visit" class="visit-panel">
+    <div>
+      <p class="eyebrow">Visit / Contact</p>
+      <h2>Jl. Soekarno Hatta No.59A, Mojolangu, Malang</h2>
+      <p>Daily 10:00-21:00, social checkout by channel</p>
+      <p>WhatsApp via Linktree</p>
+      <div class="actions">
+        <a class="button primary" href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">Open Official Profile</a>
+        <a class="button ghost" href="https://www.instagram.com/sweetstockroom" target="_blank" rel="noreferrer">Instagram</a>
       </div>
-      <div class="section-panel">
-        <article><span>SS</span><strong>Daily fit</strong></article><article><span>SS</span><strong>Weekend set</strong></article><article><span>SS</span><strong>Seasonal edit</strong></article>
-      </div>
-    </section><section id="curated" class="brand-section section-2">
-      <div class="section-copy">
-        <p class="eyebrow">Curated Stock</p>
-        <h2>Bundles and outfit edits make the store feel selected, not crowded.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>SS</span><strong>Color stories</strong></article><article><span>SS</span><strong>Outfit pairings</strong></article><article><span>SS</span><strong>Limited stock</strong></article>
-      </div>
-    </section><section id="shop" class="brand-section section-3">
-      <div class="section-copy">
-        <p class="eyebrow">Social Commerce</p>
-        <h2>TikTok Shop, Shopee, Instagram, and WhatsApp become one path.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>SS</span><strong>TikTok traffic</strong></article><article><span>SS</span><strong>Shopee checkout</strong></article><article><span>SS</span><strong>Store pickup</strong></article>
-      </div>
-    </section>
-
-    <section id="location" class="location">
-      <div>
-        <p class="eyebrow">Visit</p>
-        <h2>Jl. Soekarno Hatta No.59A, Mojolangu, Malang</h2>
-        <p>WhatsApp via Linktree</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">Shop New Arrivals</a>
-          <a class="button ghost" href="https://linktr.ee/sweetstockroom" target="_blank" rel="noreferrer">Public profile</a>
-        </div>
-      </div>
-      <iframe title="Sweet Stockroom map" src="https://www.google.com/maps?q=Jl.%20Soekarno%20Hatta%20No.59A%2C%20Mojolangu%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    </div>
+    <iframe title="Sweet Stockroom map" src="https://www.google.com/maps?q=Jl.%20Soekarno%20Hatta%20No.59A%2C%20Mojolangu%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
   </main>
-
   <footer>
-    <span>Sweet Stockroom website concept, tailored for Fashion retail and stockroom.</span>
+    <span>It feels like a curated stockroom feed made to convert social traffic.</span>
     <a href="https://wa.me/6289506753131?text=Halo%20Albert,%20saya%20mau%20dibuatkan%20website%20brand%20seperti%20demo%20ini." target="_blank" rel="noreferrer">Website by Albert Saputra</a>
   </footer>
-
   <script src="./script.js"></script>
 </body>
 </html>

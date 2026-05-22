@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Sweet Stockroom | Fashion retail and stockroom",
-  description: "A stylish stockroom page for new arrivals, curated bundles, social commerce, and store pickup. Simple, visual, and campaign-ready.",
+  title: "Sweet Stockroom | Boutique fashion stockroom",
+  description: "Connect local store visits, TikTok Shop, Shopee, Instagram, and WhatsApp into one curated buying journey.",
   openGraph: {
     title: "Sweet Stockroom",
-    description: "A stylish stockroom page for new arrivals, curated bundles, social commerce, and store pickup. Simple, visual, and campaign-ready.",
+    description: "Connect local store visits, TikTok Shop, Shopee, Instagram, and WhatsApp into one curated buying journey.",
     images: ["./assets/hero.svg"],
   },
 };

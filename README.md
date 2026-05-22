@@ -1,36 +1,34 @@
 # Sweet Stockroom
 
-Standalone landing page for Fashion retail and stockroom.
+Production-grade single-page concept for Boutique fashion stockroom.
 
-## Design concept
+## Visual philosophy
 
-Bento Grid fashion retail landing
+Boutique bento editorial with soft stockroom shelves, outfit routing, and social-commerce channel cards.
 
-## Conversion goal
+## Business logic
 
-Connect store visits, TikTok Shop, Shopee, Instagram, and WhatsApp into a curated boutique buying path.
+Connect local store visits, TikTok Shop, Shopee, Instagram, and WhatsApp into one curated buying journey.
 
-## Deployment notes
+## Storytelling structure
 
-- Static site entry: `index.html`
-- Local assets: `assets/`
-- Asset paths use relative `./assets/...`
-- `vercel.json` keeps `outputDirectory` at `.`
-- Logo fallback is handled in `script.js`
-- Hero fallback is a CSS gradient behind `./assets/hero.svg`
-- Parallax uses `requestAnimationFrame` in `script.js`
+Visitor enters new-in edit, checks outfit pairings, chooses channel, reads shipping/returns, then shops.
 
-## Brand-specific sections
+## Motion system
 
-- New In: Fresh arrivals displayed like a boutique campaign.
-- Curated Stock: Bundles and outfit edits make the store feel selected, not crowded.
-- Social Commerce: TikTok Shop, Shopee, Instagram, and WhatsApp become one path.
+Slow bento reveal, product-shelf hover, channel cards that feel tappable.
 
-## Public research injected
+## Conversion strategy
 
-- Public profile links TikTok Shop, Shopee, TikTok, Instagram, WhatsApp, and store location.
-- Soekarno Hatta address positions the store for local pickup and walk-in discovery.
-- Fashion stockroom identity fits a curated bento layout with new-in, fit edit, and social checkout blocks.
+Primary route is shop new arrivals; secondary route is store pickup and WhatsApp styling help.
+
+## Operational content included
+
+- Hours: Daily 10:00-21:00, social checkout by channel
+- Contact: WhatsApp via Linktree
+- Pricing/offer cards: Daily Top from Rp89k, Weekend Set from Rp159k, Dress Edit from Rp189k
+- Workflow: Choose fit edit -> Check size and material -> Pick Shopee/TikTok/WhatsApp -> Confirm stock -> Select delivery or pickup
+- Policies: Stock is confirmed by admin/channel. / Return/exchange follows item condition and availability. / Delivery depends on selected platform.
 
 ## Source links
 
